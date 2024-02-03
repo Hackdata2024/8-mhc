@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+// import { Link } from "react-scroll";
 import { Link as Anc } from "react-router-dom";
+// Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
+// Assets
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 import "./Navbar.css";
@@ -46,7 +49,7 @@ export default function TopNavbar() {
             <li className="semiBold font15 pointer hover nav-item">
               <Anc
                 style={{ padding: "10px 15px", color: "white" }}
-                to="/track"
+                to="/track" // changing this to projects or health services
               >
                 Trackers
               </Anc>
@@ -55,7 +58,7 @@ export default function TopNavbar() {
             <li className="semiBold font15 pointer hover nav-item">
               <Anc
                 style={{ padding: "10px 15px", color: "white" }}
-                to="/blog"
+                to="/blog" // changing this to projects or health services
               >
                 Blogs
               </Anc>

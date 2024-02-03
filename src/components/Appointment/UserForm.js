@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+// import "../assets/scss/components/userform.scss"
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../firebase";
 import { Toaster, toast } from "react-hot-toast";
@@ -20,7 +21,8 @@ const UserForm = () => {
 		e.preventDefault();
 		addDoc(collection(db, "Patient"), user)
 			.then(() => {
-				window.location.replace('https://buy.stripe.com/test_aEU8Ah9KibGmgGA146'); 
+				window.location.replace('https://buy.stripe.com/test_aEU8Ah9KibGmgGA146');
+	  // user need to confirm her appointment  
 			})
 			.catch((err) => {
 				toast.success("Appointment booking failed !!"); 
@@ -54,6 +56,7 @@ const UserForm = () => {
 					containerClassName=""
 					containerStyle={{}}
 					toastOptions={{
+						// Define default options
 						className: "",
 						duration: 5000,
 						style: {
@@ -61,6 +64,7 @@ const UserForm = () => {
 							color: "#fff",
 						},
 
+						// Default options for specific types
 						success: {
 							duration: 3000,
 							theme: {

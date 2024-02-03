@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+pipfile
 
 # testing
 /coverage
@@ -12,6 +13,9 @@
 /build
 
 # misc
+pipfile
+__pycache__
+.vscode
 .DS_Store
 .env.local
 .env.development.local

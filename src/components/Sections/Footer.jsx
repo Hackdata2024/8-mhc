@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
+import LogoImg from "../../assets/svg/Logo";
 
 export default function Footer() {
 

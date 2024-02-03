@@ -12,8 +12,10 @@ const BlogForm = () => {
 	const userActivity = () => {
 		onAuthStateChanged(auth, (user) => {
 			if (user) {
+				// eslint-disable-next-line
 				const uid = user.uid;
 			} else {
+				// User is signed out
 				navigate("/");
 			}
 		});

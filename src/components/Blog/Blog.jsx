@@ -5,6 +5,7 @@ import "./blog.css";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase";
 import { useNavigate } from "react-router-dom";
+// import { get } from "react-scroll/modules/mixins/scroller";
 const Blog = () => {
   const navigate = useNavigate();
   const [idi, setidi] = useState([]);
@@ -14,6 +15,7 @@ const Blog = () => {
     let ids = [];
     const querySnapshot = await getDocs(collection(db, "AllBlogs"));
     querySnapshot.forEach((doc) => {
+      // doc.data() is never undefined for query doc snapshots
       ids.push(doc.id);
       temp.push(doc.data());
     });

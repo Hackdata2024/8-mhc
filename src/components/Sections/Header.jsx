@@ -36,7 +36,6 @@ export default function Header() {
             src={"https://storage.googleapis.com/project-hackdata/main.jpg"}
             alt="office"
             style={{ zIndex: 9 }}
-            width="100%"
           />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>

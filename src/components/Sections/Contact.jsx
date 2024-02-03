@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
+// Assets
+import ContactImg1 from "../../assets/img/contact-1.png";
+import ContactImg2 from "../../assets/img/contact-2.png";
+import ContactImg3 from "../../assets/img/contact-3.png";
 import { toast, Toaster } from "react-hot-toast";
 
 
@@ -11,9 +15,10 @@ export default function Contact() {
   function sendMail() {
     emailjs
       .send(
-        "service_fss23tj",
-        "template_g45488h",
+        "service_hesknwi",
+        "template_kfsp0h8",
         { name: name, email: email },
+        "gP8sKnDLte9gp24k2"
       )
       .then(function (response) {
         console.log("SUCCESS!", response.status, response.text);
@@ -143,13 +148,13 @@ const Wrapper = styled.section`
   width: 100%;
 `;
 const HeaderInfo = styled.div`
-  padding: 70px 0 30px 0;
+  padding: 50px 0 30px 0;
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
 const Form = styled.form`
-  padding: 70px 0 30px 0;
+  padding: 50px 0 30px 0;
   input,
   textarea {
     width: 100%;
@@ -183,6 +188,11 @@ const ButtonInput = styled.input`
   @media (max-width: 991px) {
     margin: 0 auto;
   }
+`;
+const ContactImgBox = styled.div`
+  max-width: 180px;
+  align-self: flex-end;
+  margin: 10px 30px 10px 0;
 `;
 const SumbitWrapper = styled.div`
   @media (max-width: 991px) {

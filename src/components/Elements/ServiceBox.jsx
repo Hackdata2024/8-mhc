@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  MdScreenShare,
-  MdTrackChanges,
-  MdVolunteerActivism,
-} from "react-icons/md";
-import { FaBlogger } from "react-icons/fa";
-import { BsFillPatchExclamationFill } from "react-icons/bs";
+// Assets
+import RollerIcon from "../../assets/svg/Services/RollerIcon";
+import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
+import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
+import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
+import {MdScreenShare , MdTrackChanges,MdVolunteerActivism} from 'react-icons/md';
+import {FaNetworkWired ,FaBlogger, FaBuilding} from 'react-icons/fa';
+import {BsFillPatchExclamationFill} from 'react-icons/bs';
 
-export default function ServiceBox({ icon, title, subtitle }) {
+export default function ServiceBox({icon, title, subtitle}) {
   let getIcon;
 
   switch (icon) {
@@ -28,6 +29,7 @@ export default function ServiceBox({ icon, title, subtitle }) {
       getIcon = <MdScreenShare size={50} color={"#E52F8A"} />;
       break;
   }
+
 
   return (
     <Wrapper className="flex flexColumn">
