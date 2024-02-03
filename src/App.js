@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./screens/Landing.jsx";
 import { CrispProvider } from "./components/crisp-provider.jsx";
 import AboutUs from "./components/Sections/AboutUs.jsx";
+import Blog from "./components/Blog/Blog.jsx";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
     </>

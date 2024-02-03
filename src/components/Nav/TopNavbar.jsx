@@ -46,7 +46,7 @@ export default function TopNavbar() {
             <li className="semiBold font15 pointer hover nav-item">
               <Anc
                 style={{ padding: "10px 15px", color: "white" }}
-                to="/track" // changing this to projects or health services
+                to="/track"
               >
                 Trackers
               </Anc>
@@ -55,7 +55,7 @@ export default function TopNavbar() {
             <li className="semiBold font15 pointer hover nav-item">
               <Anc
                 style={{ padding: "10px 15px", color: "white" }}
-                to="/blog" // changing this to projects or health services
+                to="/blog"
               >
                 Blogs
               </Anc>

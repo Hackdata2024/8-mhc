@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-// Components
 import BlogBox from "../Elements/BlogBox";
 import TestimonialSlider from "../Elements/TestimonialSlider";
-// import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase";
 import { collection, getDocs } from "firebase/firestore";
-
 export default function Blog() {
   const [data, setdata] = useState([]);
   const [idi, setidi] = useState([]);
@@ -16,7 +13,6 @@ export default function Blog() {
     let i = 0;
     const querySnapshot = await getDocs(collection(db, "AllBlogs"));
     querySnapshot.forEach((doc) => {
-      // doc.data() is never undefined for query doc snapshots
       if (i < 3) {
         ids.push(doc.id);
         temp.push(doc.data());
@@ -60,9 +56,7 @@ export default function Blog() {
                 />
               </div>
             ))}
-            
           </div>
-        
         </div>
       </div>
       <div className="lightBg" style={{ padding: "50px 0" }}>
