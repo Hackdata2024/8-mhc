@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+<h1 align="center"><b>Team MidHarmony Coders presents</b></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a id="top" href="" target="blank">
+    <img src="https://storage.googleapis.com/project-hackdata/Period-Pixie.png" width="100px" alt="">
+  </a>
 
-## Available Scripts
+  <h3 align="center">Period Pixie - Embrace her Cycle,Celebrate her resilience.</h3>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## The motivation:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A recent UNICEF and WaterAid report highlights a concerning reality: over one-third of girls in South Asia are absent from school during their menstrual periods. This absence is primarily attributed to the lack of accessible toilets and sanitary pads in schools, coupled with inadequate education about menstruation. Recognizing menstrual hygiene as a global public health and human rights issue, the UN underscores the alarming statistic that 1.2 billion women worldwide lack access to basic sanitation and hygiene. In response, our commitment is to eradicate Period-Poverty and dismantle the enduring stigma by empowering girls through education and healthcare initiatives.
 
-### `npm test`
+## Operational Approach:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We aim to revolutionize women's healthcare by offering personalized feedback, analysis, mood tracking, and period cycle monitoring for women who face insecurities and enduring social stigma. Our platform enables users to meticulously Track their Period Cycle, receive insightful Mood Analysis, and access information about nearby hospitals and gynecologists for their medical needs. Through our platform, users can effortlessly Schedule Appointments with doctors and avail of remote consultations. Additionally, our blog section, titled Period Pulse, serves as a space for individuals to share informative content, challenging stereotypes, and contributing constructively to societal awareness. This section empowers each girl to showcase her knowledge and make a positive impact on society.
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Frontend frameworks** : `React` `SASS` `react-router-dom` `react-toastify` `CSS3`
 
-### `npm run eject`
+2. **Authenciation** : `Firebase`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Database and storage**: `Firestore` `MongoDB`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Services** : `Azure` `Google Maps API` `Postman` `Kaggle` `netlify`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Deployment** : `Docker` `FastAPI`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **ML Frameworks** : `Numpy` `Pandas` `Tensorflow` `Sklearn` `nltk`
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Let's do a walkthrough of the project
 
-### Analyzing the Bundle Size
+![image](https://storage.googleapis.com/project-hackdata/homepage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## **Blogs Section**
 
-### Making a Progressive Web App
+Here we list all the blogs published by all the pixirs to aware the society, share their experience and share their knowledge. This will come up as the platform where their is exchange of ideas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://storage.googleapis.com/project-hackdata/blogs.png)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **Appoinment Form**
 
-### Deployment
+This is the form , using this form user can book their appointment with their consultant and get the personalized feedback and treatment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://storage.googleapis.com/project-hackdata/Appointment.png)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **Period Tracker**
+
+This is our feature where the user can tracker the upcoming period perdictions as per the present senerio of their period. She also can download the result as the pdf format.
+
+![image](<https://storage.googleapis.com/project-hackdata/Tracker(1).png>)
+![image](<https://storage.googleapis.com/project-hackdata/Tracker(2).png>)
+
+### Result
+
+![image](https://storage.googleapis.com/project-hackdata/Period%20Pixie_Tracker_Results.pdf)
+
+---
+
+## Dashboard
+
+This is the place where **Pixir** can excess the extra features and can get all the cummilative features and feedback at one place only with just a single click.
+
+![image](https://storage.googleapis.com/project-hackdata/Dashboard.png)
+
+- ### Nearest Pharmacy
+  This is will allow the user to get info about the nearest pharmacy as per his/her location.
+
+![image](https://storage.googleapis.com/project-hackdata/Nearest-Pharmacy.png)
+
+- ### Nearest Hospital
+  This is will allow the user to get info about the nearest pharmacy as per his/her location.
+
+![image](https://storage.googleapis.com/project-hackdata/Nearest-Hospitals.png)
+
+- ### Setting Reminder
+
+  From this feature he or she can set the reminder about the appointment , period dates or any other type of reminder and they will get the reminder via email registered with our platform.
+
+  ![image](https://storage.googleapis.com/project-hackdata/Reminder.png)
+
+- ### Blogs Publish
+
+  Through this user can published their blogs to our platform and also track the blog published by them on the dashboard only.
+
+  ![image](https://storage.googleapis.com/project-hackdata/blogs-upload.png)
+
+  - Blog Published by user
+
+  - ### Moody Bot
+
+  Through this user can ask or share their feelings to the bot and get desired answer
+
+  ![image](hhttps://storage.googleapis.com/project-hackdata/Moody-Bot.png)
+
+  - Blog Published by user
+
+---
+## MidHarmony Team:
+
+- (Veer Yadav -Team Leader)
+- (Saket Gupta -Team Member(1))
+- (Yash Sajwan -Team Member(2))
+- (Vishu Bhandari -Team Member(4))
+
+<p align="right">(<a href="#top">back to top</a>)</p>
