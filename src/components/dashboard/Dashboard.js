@@ -161,7 +161,7 @@ const Dashboard = () => {
             <div className="collapse navbar-collapse" id="sidebarCollapse">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link" to={"/dashboard"}>
+                  <Link className="nav-link bg-pink-200" to={"/dashboard"}>
                     <i className="bi bi-house"></i> Home
                   </Link>
                 </li>

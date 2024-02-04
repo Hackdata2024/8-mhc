@@ -216,7 +216,7 @@ const NearHospital = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={"/nearhospital"}>
+                  <Link className="nav-link bg-pink-200" to={"/nearhospital"}>
                     <i className="bi bi-file-medical"></i> Nearest Hospital
                   </Link>
                 </li>

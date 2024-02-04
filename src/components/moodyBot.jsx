@@ -242,7 +242,7 @@ const MoodyBot = () => {
 									</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" to={"/moodybot"}>
+									<Link className="nav-link bg-pink-200" to={"/moodybot"}>
 										<i className="bi bi-emoji-smile"></i> Moody Bot
 									</Link>
 								</li>
