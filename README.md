@@ -107,11 +107,10 @@ This is the place where **Pixir** can excess the extra features and can get all 
 
   - ### Moody Bot
 
-  Through this user can ask or share their feelings to the bot and get desired answer
+  Through this user can ask or share their feelings to the bot and get desired answer.
 
   ![image](https://storage.googleapis.com/project-hackdata/Moody-Bot.png)
 
-  - Blog Published by user
 
 ---
 ## MidHarmony Team:
@@ -119,6 +118,6 @@ This is the place where **Pixir** can excess the extra features and can get all 
 - (Veer Yadav -Team Leader)
 - (Saket Gupta -Team Member(1))
 - (Yash Sajwan -Team Member(2))
-- (Vishu Bhandari -Team Member(4))
+- (Vishu Bhandari -Team Member(3))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
