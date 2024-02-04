@@ -73,10 +73,6 @@ This is our feature where the user can tracker the upcoming period perdictions a
 ![image](<https://storage.googleapis.com/project-hackdata/Tracker(1).png>)
 ![image](<https://storage.googleapis.com/project-hackdata/Tracker(2).png>)
 
-### Result
-
-![image](https://storage.googleapis.com/project-hackdata/Period%20Pixie_Tracker_Results.pdf)
-
 ---
 
 ## Dashboard
@@ -113,7 +109,7 @@ This is the place where **Pixir** can excess the extra features and can get all 
 
   Through this user can ask or share their feelings to the bot and get desired answer
 
-  ![image](hhttps://storage.googleapis.com/project-hackdata/Moody-Bot.png)
+  ![image](https://storage.googleapis.com/project-hackdata/Moody-Bot.png)
 
   - Blog Published by user
 
