@@ -14,6 +14,8 @@ t
 print("The program is running ")
 app=FastAPI()
 
+nltk.download('punkt')
+
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
@@ -28,7 +30,7 @@ app.add_middleware(
 
 ERROR_THRESHOLD = 0.1
 # load our calculated weight values
-weights_file = 'weights.json' 
+weights_file =  (os.getcwd() + '\\..\\Mood_tracker\\weights.json' ).replace('\\', '/')
 with open(weights_file) as data_file: 
     weights = json.load(data_file) 
     W1 = np.asarray(weights['weight1']) 
@@ -136,9 +138,5 @@ async def mood_guessing(input_mood :str ):
 # fear , sadness , anger , joy , anxiety, tired and disturbed, disturbed , Mood Alright
 
 print("The program has stopped ")
-except Exception as e:
-    print(f"Internal Server Error: {e}")
-    # Print additional information or traceback if needed
-    import traceback
-    traceback.print_exc()
+
 # uvicorn app:app --reload

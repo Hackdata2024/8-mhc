@@ -5,7 +5,13 @@ import train as t
 import random
 ERROR_THRESHOLD = 0.1
 # load our calculated weight values
-weights_file = 'weights.json' 
+import os
+
+
+
+weights_file = os.getcwd().replace('\\', '/') + '/weights.json'
+print(weights_file); 
+print(weights_file)
 with open(weights_file) as data_file: 
     weights = json.load(data_file) 
     W1 = np.asarray(weights['weight1']) 
